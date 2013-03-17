@@ -3,7 +3,7 @@ robo-arm-pi
 
 USB Robotic Arm Interface for Raspberry Pi (in C++)
 
-Created 17th March 2013 by Pete Dring
+Created 17th March 2013 by Pete Dring for use primarily in schools in robotics clubs.
 
 This project is designed to allow teachers and students to control a robotic arm using a raspberry pi.
 

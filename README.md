@@ -21,6 +21,10 @@ To get the code type:
    
 Before you can compile the source, you will need to install certain dependencies:
    <code>sudo apt-get install libusb-dev ncurses-dev build-essential</code>
+apt-get lets you install extra programs or libraries and the sudo command is needed to run the apt-get command with elevated security privileges.
+
+The libusb library is essential for controlling the robot arm over the USB interface. The ncurses-dev is used for the sample progra (it lets you detect individual key presses) and the build-essentials gives you the tools to compile the program if you've not already got them.
+If you are in a school with a network filter, you may need to set up apt-get to work behind your school proxy. At my school, this can be done by using ntlmaps (http://ntlmaps.sourceforge.net/) and then changing the apt settings (http://www.unixmen.com/apt-get-behind-a-proxy/)   
 
 To compile the source code type:
    <code>make</code>

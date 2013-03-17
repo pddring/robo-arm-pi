@@ -7,7 +7,9 @@ Created 17th March 2013 by Pete Dring
 
 This project is designed to allow teachers and students to control a robotic arm using a raspberry pi.
 
-The Robotic Arm in question is: http://www.maplin.co.uk/robotic-arm-kit-with-usb-pc-interface-266257. (cost £44.99 at time of writing)
+For help and support please go to https://github.com/pddring/robo-arm-pi/wiki
+
+The Robotic Arm that this interface works with is: http://www.maplin.co.uk/robotic-arm-kit-with-usb-pc-interface-266257. (cost £44.99 at time of writing)
 
 Also available from http://www.owirobot.com/robotic-arm-edge-1/ with a manual controlled and the USB interface sold separately.
 

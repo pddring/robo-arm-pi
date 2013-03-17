@@ -18,6 +18,9 @@ This project includes a library in C++ and a test program that allows the robot 
 
 To get the code type:
    git clone git://github.com/pddring/robo-arm-pi.git
+   
+Before you can compile the source, you will need to install certain dependencies:
+   sudo apt-get install libusb-dev ncurses-dev build-essential
 
 To compile the source code type:
    make

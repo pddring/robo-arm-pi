@@ -9,15 +9,15 @@ int main(void) {
 		initscr();
 		timeout(-1);
 		
-		printf("Robot arm interface by P. Dring\n");
+		printw("Robot arm interface by P. Dring\n");
 		
-		printf("Grip commands: i, o, p\n\r");
-		printf("Base commands: k, l, ;\n\r");
-		printf("Wrist commands: w, s, x\n\r");
-		printf("Elbow commands: e, d, c\n\r");
-		printf("Shoulder commands: r, f, v\n\r");
-		printf("Toggle LED: space\n\r");
-		printf("Quit: q\n\r");
+		printw("Grip commands: i, o, p\n\r");
+		printw("Base commands: k, l, ;\n\r");
+		printw("Wrist commands: w, s, x\n\r");
+		printw("Elbow commands: e, d, c\n\r");
+		printw("Shoulder commands: r, f, v\n\r");
+		printw("Toggle LED: space\n\r");
+		printw("Quit: q\n\r");
 		
 		
 		RobotArm roboarm;
@@ -71,7 +71,9 @@ int main(void) {
 	} catch(const char * message) {
 		endwin();
 		printf("%s\n\r", message);
+		return(1);
 	}
 	
+	printf("Find out more at https://github.com/pddring/robo-arm-pi\n");
 	return 0;
 }

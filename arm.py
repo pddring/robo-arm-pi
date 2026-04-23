@@ -176,8 +176,6 @@ class Arm:
 
 
 if __name__ == "__main__":
-     # import the arm module
-
     # connect to the USB Arm module
     arm = Arm()
 
@@ -190,3 +188,22 @@ if __name__ == "__main__":
 
     # turn led off
     arm.set_led(Arm.OFF)
+
+    arm.base(Arm.CLOCKWISE, 500)
+    arm.base(Arm.ANTICLOCKWISE, 500)
+    arm.set_led(Arm.ON)
+
+    arm.shoulder(Arm.UP, 500)
+    arm.shoulder(Arm.DOWN, 500)
+    arm.set_led(Arm.OFF)
+
+    arm.elbow(Arm.UP, 500)
+    arm.elbow(Arm.DOWN, 500)
+    arm.set_led(Arm.ON)
+
+    arm.wrist(Arm.UP, 500)
+    arm.wrist(Arm.DOWN, 500)
+    arm.set_led(Arm.OFF)
+
+
+
